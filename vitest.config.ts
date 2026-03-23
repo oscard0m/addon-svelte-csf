@@ -21,6 +21,9 @@ export default defineConfig({
             storybookScript: 'pnpm run storybook --no-open',
           }),
         ],
+        optimizeDeps: {
+          include: ['storybook/test'],
+        },
         test: {
           name: 'storybook',
           browser: {
