@@ -33,4 +33,7 @@ jobs:
         run: pnpm build
 
       - name: Publish preview releases
+        # Requires the pkg.pr.new GitHub App to be installed on this repo:
+        # https://github.com/apps/pkg-pr-new
+        continue-on-error: true
         run: pnpm pkg-pr-new publish --pnpm
