@@ -46,7 +46,7 @@
     "format:check": "prettier --check .",
     "lint": "eslint . --cache --cache-location=\"./node_modules/.cache\"",
     "prepublish": "pnpm run clean && pnpm run build",
-    "release": "pnpm build && pnpm changeset publish",
+    "release": "pnpm changeset publish",
     "start": "pnpm run build && concurrently \"pnpm run build --watch\" \"pnpm run storybook --quiet\"",
     "storybook": "storybook dev --port 6006 --no-open",
     "test": "vitest",
