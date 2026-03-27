@@ -13,6 +13,12 @@ pnpm changeset   # Create a changeset for your changes
 pnpm release     # Build and publish (CI handles this automatically)
 ```
 
+**Before committing, always run the format script to avoid CI failures:**
+
+```bash
+pnpm format
+```
+
 ### Creating Changesets (MANDATORY for user-facing changes)
 
 When making changes that affect users (bug fixes, new features, breaking changes, dependency updates), you **MUST** create a changeset file.
