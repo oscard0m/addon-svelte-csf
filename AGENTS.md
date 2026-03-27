@@ -4,26 +4,6 @@ Keep this file, `AGENTS.md`, up to date when the repo's architecture, tooling, w
 
 This file is the canonical instruction source for coding agents. `CLAUDE.md` points here instead of duplicating instructions.
 
-## Repository Overview
-
-`@storybook/addon-svelte-csf` is a Storybook addon that lets you write stories using the Svelte language (`.stories.svelte` files) instead of regular CSF.
-
-- **Base branch**: `main` (all PRs should target `main`)
-- **Node.js**: `24` (see `.nvmrc`)
-- **Package Manager**: pnpm (see `packageManager` in `package.json`)
-
-## Common Commands
-
-```bash
-pnpm install          # Install dependencies
-pnpm build            # Build the addon
-pnpm test             # Run unit tests
-pnpm storybook        # Start Storybook dev server
-pnpm lint             # Lint the codebase
-pnpm format           # Format the codebase
-pnpm svelte-check     # Run Svelte type checking
-```
-
 ## Release Process
 
 This repo uses [Changesets](https://github.com/changesets/changesets) for versioning and publishing.
@@ -40,7 +20,7 @@ When making changes that affect users (bug fixes, new features, breaking changes
 **Steps:**
 
 1. Create a new `.md` file in the `.changeset/` directory
-2. Use a descriptive kebab-case filename (e.g., `fix-story-loading.md`)
+2. Use naming convention: `<random-word>-<random-word>-<random-word>.md` (e.g., `brave-wolves-swim.md`)
 3. Format:
 
 ```markdown
