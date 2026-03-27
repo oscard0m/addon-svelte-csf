@@ -25,7 +25,7 @@ When making changes that affect users (bug fixes, new features, breaking changes
 
 ```markdown
 ---
-"@storybook/addon-svelte-csf": patch
+'@storybook/addon-svelte-csf': patch
 ---
 
 Short description of what changed.
@@ -47,7 +47,7 @@ Short description of what changed.
 
 ```markdown
 ---
-"@storybook/addon-svelte-csf": patch
+'@storybook/addon-svelte-csf': patch
 ---
 
 Fix story auto-title not respecting the `prefix` option.
@@ -55,7 +55,7 @@ Fix story auto-title not respecting the `prefix` option.
 
 ```markdown
 ---
-"@storybook/addon-svelte-csf": minor
+'@storybook/addon-svelte-csf': minor
 ---
 
 Add `autodocs` support for `.stories.svelte` files.
@@ -63,7 +63,7 @@ Add `autodocs` support for `.stories.svelte` files.
 
 ```markdown
 ---
-"@storybook/addon-svelte-csf": major
+'@storybook/addon-svelte-csf': major
 ---
 
 Remove the deprecated `<Story name="...">` syntax. Use the `defineMeta` / `Story` component API instead. See the [migration guide](./MIGRATION.md) for details.
